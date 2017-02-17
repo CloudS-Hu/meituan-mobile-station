@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html style="font-size: 100px;">
+	<!--1.左右滑动翻页-->
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, 
+			width=device-width, user-scalable=no">
+		<title>meituanweb</title>
+		<!--导入jQuery插件-->
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<!--活动倒计时-->
+		<script type="text/javascript" src="js/timer.js"></script>
+		<!--首页滚动-->
+		<script type="text/javascript" src="js/listRoll.js"></script>
+		<!--置顶-->
+		<script type="text/javascript" src="js/toTop.js"></script>
+		<!--style-->
+		<link rel="stylesheet" type="text/css" href="css/meituan.css"/>
+	</head>
+
+	<body id="bd" style="margin: auto;">
+		<header class="navbar">
+			<div class="nav-wrap-left">
+				<a href="">
+					<span>厦门<space> </space>∨</span>
+				</a>
+			</div>
+			<div class="box-search">
+				<a href="">
+					<img src="img/search-icon.gif" />
+					<span>输入商家/品类/商圈</span>
+				</a>
+			</div>
+			<div class="nav-wrap-right">
+				<a href="">
+					<img src="img/my.gif" />
+					<span>我的</span>
+				</a>
+			</div>
+		</header>
+		<section class="banner">
+			<div>
+				<a href="">
+					<img src="img/banner.jpg.webp" />
+				</a>
+			</div>
+		</section>
+		<dl class="icon-list">
+			<dd class="icon-list-wrapper" id="automove">
+				<ul class="icon-list-move">
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/meishi.jpg" /></span>
+							<span>美食</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/dianying.jpg"/></span>
+							<span>电影</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/jiudian.jpg"/></span>
+							<span>酒店</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/ktv.jpg" /></span>
+							<span>KTV</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/shenghuofuwu.jpg"/></span>
+							<span>生活服务</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/xiuxianyule.jpg" /></span>
+							<span>休闲娱乐</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/tiandianyinpin.jpg" /></span>
+							<span>甜点饮品</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/lvyou.jpg" /></span>
+							<span>旅游</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/jintiqingdan.jpg"/></span>
+							<span>今日清单</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/daijinquan.jpg"/></span>
+							<span>代金券</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/zhoubianyou.jpg" /></span>
+							<span>周边游</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/xiaochikuaican.jpg" /></span>
+							<span>小吃快餐</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/zuliaoanmo.jpg"/></span>
+							<span>足疗按摩</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/hunshasheying.jpg" /></span>
+							<span>婚纱摄影</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/liren.jpg" /></span>
+							<span>丽人</span>
+						</a>
+					</li>
+					<li class="icon">
+						<a href="meituan_meishi.html">
+							<span><img src="img/quanbufenlei.jpg" /></span>
+							<span>全部分类</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="icon-list-cirle">
+					<li class="circleOne"></li>
+					<li class="circleTwo"></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl id="daogou">
+			<dd class="daogou-wrap">
+				<div class="left">
+					<a href="">
+						<span>
+							<strong>我们约吧</strong>
+							<small>恋人家人好朋友</small>
+						</span>
+						<span>
+							<img src="img/womenyueba.png"/>
+						</span>
+					</a>
+				</div>
+				<div class="right">
+					<div class="top">
+						<a href="">
+							<div class="topwrap">
+								<span>
+								<strong>低价超值</strong>
+							    <small>十元惠生活</small>
+							    </span>
+								<span><img src="img/hanbao.jpg" /></span>
+							</div>
+						</a>
+					</div>
+					<div class="bottom">
+						<div class="bottomLeft">
+							<a href="">
+								<span>
+							<strong>工作简餐</strong>
+							<small>实惠方便选择多</small>
+						    </span>
+								<span>
+							<img src="img/gongzuojiancan.png"/>
+						    </span>
+							</a>
+						</div>
+						<div class="bottomRight">
+							<a href="">
+								<span>
+							        <strong>名店抢购</strong>
+							        <small id="activity">即将开始</small>
+						        </span>
+								<span class="time">
+									<span id="timewrapper">
+										<span id="hours">00</span>
+								<span id="maohao1">:</span>
+								<span id="minutes">00</span>
+								<span id="maohao2">:</span>
+								<span id="seconds">00</span>
+								</span>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</dd>
+		</dl>
+		<dl class="huodong">
+			<dd class="huodong-wrapper">
+				<div class="huodong-top">
+					<a href="" class="huodong-top-a">
+						<div>
+							<strong>1元吃喝玩乐</strong>
+							<small>新用户专享</small>
+						</div>
+						<img src="img/1yuanchihewanle.jpg" />
+					</a>
+				</div>
+				<div class="huodong-middle">
+					<div class="huodong-middle-left">
+						<a href="" class="huodong-middle-left-a">
+							<div>
+								<strong>1元肯德基</strong>
+								<small>新用户专享</small>
+							</div>
+							<img src="img/1yuankendeji.png" />
+						</a>
+					</div>
+					<div class="huodong-middle-right">
+						<a href="" class="huodong-middle-right-a">
+							<div>
+								<strong>新用户专享</strong>
+								<small>观影9.9元起</small>
+							</div>
+							<img src="img/xinyonghuzhuanxiang.png" />
+						</a>
+					</div>
+				</div>
+				<div class="huodong-bottom">
+					<div class="huodong-bottom-left">
+						<a href="" class="huodong-bottom-left-a">
+							<div>
+								<strong>新用户专享</strong>
+								<small>观影9.9元起</small>
+							</div>
+							<img src="img/jiudianzhehoujian.jpg" />
+						</a>
+					</div>
+					<div class="huodong-bottom-right">
+						<a href="" class="huodong-bottom-left-a">
+							<div>
+								<strong>邓超搭孙俪</strong>
+								<small>恶棍天使9.9起</small>
+							</div>
+							<img src="img/dengchaodasunli.png" />
+						</a>
+					</div>
+				</div>
+			</dd>
+		</dl>
+		<dl class="guessLike">
+			<dd class="guessLike-wrapper">
+				<header class="guessLike-header">
+					<span>猜你喜欢</span>
+				</header>
+				<div class="guessLike-item">
+					<a class="guessLike-item-a" href="">
+						<div class="guessLike-item-left"><img src="img/youmizaoxing.jpg" /> </div>
+						<div class="guessLike-item-right">
+							<span class="guessLike-item-right-span1">
+								<strong>佑米造型</strong>
+								<p>[厦门等]美发套餐,男女不限,长短发不限</p>
+								<b>88元</b><small>门市价:1018</small>
+							</span>
+							<span class="guessLike-item-right-span2">已售888888</span>
+						</div>
+					</a>
+				</div>
+				<div class="guessLike-item">
+					<a class="guessLike-item-a" href="">
+						<div class="guessLike-item-left"><img src="huodong_img/haizixingche.jpg" /> </div>
+						<div class="guessLike-item-right">
+							<span class="guessLike-item-right-span1">
+								<strong>千里单骑自行车出租</strong>
+								<p>[曾厝垵]全天亲子自行车4辆</p>
+								<b>88元</b><small>门市价:1018</small>
+							</span>
+							<span class="guessLike-item-right-span2">已售888888</span>
+						</div>
+					</a>
+				</div>
+				<div class="guessLike-item">
+					<a class="guessLike-item-a" href="">
+						<div class="guessLike-item-left"><img src="huodong_img/laozihao.jpg" /> </div>
+						<div class="guessLike-item-right">
+							<span class="guessLike-item-right-span1">
+								<strong>黄胜记鼓浪屿肉松店</strong>
+								<p>[鼓浪屿]美味零食11选1,美味齐分享</p>
+								<b>88元</b><small>门市价:1018</small>
+							</span>
+							<span class="guessLike-item-right-span2">已售888888</span>
+						</div>
+					</a>
+				</div>
+				<div class="guessLike-item">
+					<a class="guessLike-item-a" href="">
+						<div class="guessLike-item-left"><img src="huodong_img/liuzhuan.jpg" /> </div>
+						<div class="guessLike-item-right">
+							<span class="guessLike-item-right-span1">
+								<strong>轮流转自助回转涮涮锅</strong>
+								<p>[万达]单人自助晚餐,免费wifi</p>
+								<b>88元</b><small>门市价:1018</small>
+							</span>
+							<span class="guessLike-item-right-span2">已售888888</span>
+						</div>
+					</a>
+				</div>
+				<div class="guessLike-item">
+					<a class="guessLike-item-a" href="">
+						<div class="guessLike-item-left"><img src="huodong_img/sushi.jpg" /> </div>
+						<div class="guessLike-item-right">
+							<span class="guessLike-item-right-span1">
+								<strong>观音素食馆</strong>
+								<p>[湖里公园]素食自助餐</p>
+								<b>28元</b><small>门市价:1018</small>
+							</span>
+							<span class="guessLike-item-right-span2">已售888888</span>
+						</div>
+					</a>
+				</div>
+				<div class="guessLike-item">
+					<a class="guessLike-item-a" href="">
+						<div class="guessLike-item-left"><img src="huodong_img/tiantianyugang.jpg" /> </div>
+						<div class="guessLike-item-right">
+							<span class="guessLike-item-right-span1">
+								<strong>天天渔港大酒楼</strong>
+								<p>国际邮轮中心]100元代金券1张,可叠加</p>
+								<b>88元</b><small>门市价:1018</small>
+							</span>
+							<span class="guessLike-item-right-span2">已售888888</span>
+						</div>
+					</a>
+				</div>
+				<div class="guessLike-item">
+					<a class="guessLike-item-a" href="">
+						<div class="guessLike-item-left"><img src="huodong_img/tonghua.jpg" /> </div>
+						<div class="guessLike-item-right">
+							<span class="guessLike-item-right-span1">
+								<strong>杭州湾嗨皮岛换了世界圣诞场票</strong>
+								<p>[厦门等]杭州湾嗨皮岛换了世界圣诞场票</p>
+								<b>58元</b><small>门市价:1018</small>
+							</span>
+							<span class="guessLike-item-right-span2">已售888888</span>
+						</div>
+					</a>
+				</div>
+				<footer class="guessLike-footer">
+					<a class="guessLike-footer-a" href="">
+						<span class="guessLike-footer-left">查看全部团购</span>
+						<span class="guessLike-footer-right">></span>
+					</a>
+				</footer>
+			</dd>
+		</dl>
+		<footer class="footer">
+			<div class="footer-login">
+				<div class="footer-login-left">
+					<a class="denglu" href="">登录</a>
+					<a class="zhuce" href="">注册</a>
+				</div>
+				<div class="footer-login-right">
+					<span>城市:</span>
+					<a class="xiamen" href="">厦门</a>
+				</div>
+			</div>
+			<div class="footer-class">
+				<a href="" class="shouye">首页</a>
+				<a href="" class="dingdan">订单</a>
+				<a href="" class="kehuduan">客户端</a>
+				<a href="" class="diannaoban">电脑版</a>
+				<a href="" class="bangzhu">帮助</a>
+			</div>
+			<div class="footer-link">
+				<span>友情链接</span>
+				<span>:</span>
+				<a href="">猫眼电影</a>
+			</div>
+			<div class="footer-copyright">
+				<div></div>
+				<span>©2015 胡云南 闽ICP证83638号</span>
+			</div>
+		</footer>
+		<div id="top-btn">
+			<a href="#bd"></a>
+		</div>
+	</body>
+
+</html>

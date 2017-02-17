@@ -1,0 +1,1038 @@
+.navbar {
+	width: 100%;
+	height: 1.02rem;
+	position: relative;
+	background-color: rgb(6, 193, 174);
+}
+
+.nav-back {
+	display: block;
+	height: 1.02rem;
+	width: 1.02rem;
+	background: url(../meishi_img/back-jiantou.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.nav-middle {
+	position: absolute;
+	left: 1.02rem;
+	right: 2.04rem;
+	font-size: .4em;
+	height: 1.02rem;
+	display: block;
+	text-align: center;
+	line-height: 1.02rem;
+	color: white;
+}
+
+.nav-firstpage {
+	height: 1.02rem;
+	width: 1.02rem;
+	position: absolute;
+	right: 1.02rem;
+	font-size: .22em;
+}
+
+.nav-firstpage a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.nav-firstpage img {
+	position: absolute;
+	left: .3rem;
+	top: .16rem;
+	width: .45rem;
+	height: .4rem;
+}
+
+.nav-firstpage span {
+	display: block;
+	position: absolute;
+	left: .31rem;
+	top: .6rem;
+}
+
+.nav-my {
+	height: 1.02rem;
+	width: 1.02rem;
+	position: absolute;
+	right: 0px;
+	font-size: .22em;
+}
+
+.nav-my a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.nav-my img {
+	position: absolute;
+	left: .28rem;
+	top: .15rem;
+	width: .45rem;
+	height: .4rem;
+}
+
+.nav-my span {
+	display: block;
+	position: absolute;
+	left: .29rem;
+	top: .6rem;
+}
+
+
+/*海报++++++++++++++++*/
+
+.poster {
+	width: 100%;
+	height: 3.9rem;
+	position: relative;
+	background: -webkit-linear-gradient( top, white, black);
+}
+
+.poster-img-wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+	overflow: hidden;
+}
+
+.poster img {
+	position: absolute;
+	width: 100%;
+	opacity: .8;
+}
+
+.poster-title1 {
+	position: absolute;
+	top: 2.6rem;
+	font-size: .4rem;
+	left: .3rem;
+	color: white;
+}
+
+.poster-title2 {
+	position: absolute;
+	top: 3.2rem;
+	font-size: .3rem;
+	left: .3rem;
+	color: white;
+}
+
+.posterDetails {
+	width: 100%;
+	height: 3.55rem;
+	position: relative;
+	border-bottom: 2px solid rgb(221, 216, 206);
+}
+
+.posterDetails-buy {
+	width: 100%;
+	height: 1.2rem;
+	position: relative;
+	border-bottom: 2px solid rgb(192, 192, 192);
+}
+
+.posterDetails-buy1 {
+	font-size: .6rem;
+	color: rgb(6, 193, 174);
+	font-weight: bold;
+	position: absolute;
+	left: .2rem;
+	height: 100%;
+	line-height: 1.2rem;
+}
+
+.posterDetails-buy2 {
+	font-size: .25rem;
+	color: rgb(102, 102, 102);
+	position: absolute;
+	left: 1.6rem;
+	top: .5rem;
+}
+
+.posterDetails-buy3 {
+	position: absolute;
+	right: .2rem;
+	font-size: .4rem;
+	height: .7rem;
+	line-height: .7rem;
+	width: 2.3rem;
+	text-align: center;
+	top: .25rem;
+	color: white;
+	background-color: rgb(255, 153, 0);
+	border-radius: .08rem;
+}
+
+.posterDetails-left {
+	position: absolute;
+	width: 50%;
+	height: 2.33rem;
+	bottom: 0px;
+	top: 1.22rem;
+}
+
+.posterDetails-left1 {
+	font-size: .3rem;
+	position: absolute;
+	top: .3rem;
+	left: .3rem;
+	color: rgb(107, 189, 0);
+}
+
+.posterDetails-left2 {
+	top: .78rem;
+	font-size: .3rem;
+	position: absolute;
+	color: rgb(102, 102, 102);
+	left: .3rem;
+}
+
+.posterDetails-left3 {
+	border: 2px solid rgb(6, 193, 174);
+	font-size: .3rem;
+	position: absolute;
+	top: 1.45rem;
+	height: .53rem;
+	line-height: .53rem;
+	left: .2rem;
+	right: .2rem;
+	text-align: center;
+	border-radius: .1rem;
+	color: rgb(6, 193, 174);
+}
+
+.posterDetails-right {
+	position: absolute;
+	width: 50%;
+	height: 2.33rem;
+	bottom: 0px;
+	top: 1.22rem;
+	right: 0px;
+}
+
+.posterDetails-right1 {
+	font-size: .3rem;
+	position: absolute;
+	top: .3rem;
+	left: .3rem;
+	color: rgb(107, 189, 0);
+}
+
+.posterDetails-right3 {
+	border: 2px solid rgb(6, 193, 174);
+	font-size: .3rem;
+	position: absolute;
+	top: 1.45rem;
+	height: .53rem;
+	line-height: .53rem;
+	left: .2rem;
+	right: .2rem;
+	text-align: center;
+	border-radius: .1rem;
+	color: rgb(6, 193, 174);
+}
+
+.space {
+	position: relative;
+	height: .26rem;
+	width: 100%;
+	background-color: rgb(240, 239, 237);
+	border-bottom: 2px solid rgb(221, 216, 206);
+	border-top: 2px solid rgb(221, 216, 206);
+}
+
+.evaluate {
+	height: .8rem;
+	width: 100%;
+	position: relative;
+}
+
+.evaluate-left {
+	position: absolute;
+	height: .27rem;
+	width: 2.08rem;
+	background: url(../meishi_img/pingfen.jpg);
+	top: .255rem;
+	left: .2rem;
+}
+
+.evaluate-right {
+	font-size: .3rem;
+	position: absolute;
+	right: .2rem;
+	height: .8rem;
+	line-height: .8rem;
+	color: rgb(162, 162, 162);
+}
+
+.message {
+	height: 3.44rem;
+	width: 100%;
+	position: relative;
+}
+
+.message-top {
+	height: .84rem;
+	width: 100%;
+	position: absolute;
+	margin: 0px;
+	top: 0px;
+	font-size: .35rem;
+	line-height: .84rem;
+}
+
+.message-middle {
+	display: block;
+	height: 1.76rem;
+	width: 100%;
+	position: absolute;
+	top: .84rem;
+	font-size: .3rem;
+	border-bottom: 2px solid rgb(221, 216, 206);
+	border-top: 2px solid rgb(221, 216, 206);
+}
+
+.message-address {
+	position: absolute;
+	display: block;
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+	top: .36rem;
+	right: 1.8rem;
+	left: .2rem;
+}
+
+.message-address strong {
+	display: block;
+	padding: .05rem;
+}
+
+.message-address span {
+	display: block;
+	padding: .05rem;
+}
+
+.message-phone {
+	position: absolute;
+	height: .84rem;
+	right: .2rem;
+	border-left: 2px solid rgb(221, 216, 206);
+	width: 1.6rem;
+	height: 1.2rem;
+	top: .28rem;
+	text-align: center;
+}
+
+.message-phone img {
+	margin-top: .3rem;
+}
+
+.message-bottom {
+	display: block;
+	height: .84rem;
+	width: 100%;
+	position: absolute;
+	top: 2.6rem;
+	font-size: .3rem;
+	color: rgb(6, 193, 174);
+	line-height: .84rem;
+}
+
+.message-bottom-left {
+	position: absolute;
+	left: .2rem;
+}
+
+.message-bottom-right {
+	position: absolute;
+	right: .2rem;
+}
+
+.meal {
+	width: 100%;
+	position: relative;
+}
+
+.meal table {
+	font-size: .3rem;
+	width: 100%;
+	border-spacing: 0px;
+}
+
+.meal1 {
+	height: .84rem;
+}
+
+.meal2 {
+	height: .84rem;
+	text-align: center;
+	background-color: rgb(232, 232, 232);
+	border-bottom: 2px solid rgb(221, 216, 206);
+	border-top: 2px solid rgb(221, 216, 206);
+}
+
+.meal3 {
+	height: 1.17rem;
+	position: relative;
+}
+
+.meal3-1 {
+	display: block;
+	position: absolute;
+	left: .2rem;
+}
+
+.meal3-2 {
+	display: block;
+	position: absolute;
+	right: 1.7rem;
+	height: 100%;
+	top: 0px;
+	width: 1.5rem;
+	line-height: 1.2rem;
+	text-align: center;
+	border-left: 2px solid rgb(221, 216, 206);
+	border-right: 2px solid rgb(221, 216, 206);
+}
+
+.meal3-3 {
+	display: block;
+	position: absolute;
+	right: .2rem;
+	height: 100%;
+	top: 0px;
+	width: 1.5rem;
+	line-height: 1.2rem;
+	text-align: center;
+}
+
+.meal4 {
+	height: 1.17rem;
+	border-bottom: 2px solid rgb(221, 216, 206);
+	border-top: 2px solid rgb(221, 216, 206);
+}
+
+.meal5 {
+	height: .84rem;
+	color: rgb(6, 193, 174);
+}
+
+.meal5 a {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	line-height: .84rem;
+}
+
+.meal5-left {
+	display: block;
+	position: absolute;
+	left: .2rem;
+}
+
+.meal5-right {
+	display: block;
+	position: absolute;
+	right: .2rem;
+}
+
+.notice-header {
+	height: .84rem;
+	width: 100%;
+	font-size: .4rem;
+	line-height: .84rem;
+	border-bottom: 2px solid rgb(221, 216, 206);
+}
+
+.notice-content {
+	font-size: .3rem;
+	color: rgb(52, 52, 52);
+	margin-left: .2rem;
+	margin-right: .2rem;
+}
+
+.notice-content span {
+	color: rgb(255, 153, 0);
+	font-size: .35rem;
+}
+
+.notice-content li {
+	padding: .06rem;
+}
+
+.client {
+	position: relative;
+}
+
+.client-head {
+	height: .867rem;
+	width: 100%;
+	position: relative;
+}
+
+.client-head-left {
+	position: absolute;
+	height: .35rem;
+	width: 2.4rem;
+	background: url(../meishi_img/pingfen.jpg);
+	top: .255rem;
+	right: .2rem;
+	background-size: 100% 100%;
+}
+
+.client-head-right {
+	font-size: .36rem;
+	position: absolute;
+	left: .2rem;
+	height: .867rem;
+	line-height: .867rem;
+	color: rgb(102, 102, 102);
+}
+
+.client-evaluate {
+	position: relative;
+	border-top: 2px solid rgb(221, 216, 206);
+}
+
+.client-evaluate1 {
+	font-size: .35rem;
+	position: absolute;
+	top: .2rem;
+	left: .3rem;
+	color: rgb(102, 102, 102);
+}
+
+.client-evaluate2 {
+	position: absolute;
+	height: .3rem;
+	width: 1.75rem;
+	background: url(../xiangqing_img/client-pingjia.jpg);
+	top: .66rem;
+	left: .2rem;
+	background-size: 100% 100%;
+}
+
+.client-evaluate3 {
+	font-size: .25rem;
+	position: relative;
+	left: 2rem;
+	color: rgb(202, 202, 202);
+}
+
+.client-evaluate4 {
+	left: .3rem;
+	margin-right: .7rem;
+	color: rgb(102, 102, 102);
+	position: relative;
+	font-size: .3rem;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+}
+
+.client-evaluate5-wrap {
+	position: relative;
+	height: 1.3rem;
+}
+
+.client-evaluate5 {
+	position: absolute;
+	color: rgb(162, 162, 162);
+	right: .3rem;
+	font-size: .6rem;
+	top: -0.55rem;
+	display: block;
+	transform: rotate(90deg);
+}
+
+.client-evaluate-img {
+	position: absolute;
+	left: .3rem;
+	top: .15rem;
+}
+
+.client-footer {
+	position: relative;
+	height: .84rem;
+	font-size: .33rem;
+	border-bottom: 2px solid rgb(221, 216, 206);
+	border-top: 2px solid rgb(221, 216, 206);
+}
+
+.client-footer a {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	line-height: .84rem;
+	height: .84rem;
+	color: rgb(6, 193, 174);
+}
+
+.client-footer-left {
+	display: block;
+	position: absolute;
+	left: .2rem;
+	height: .84rem;
+}
+
+.client-footer-right {
+	display: block;
+	position: absolute;
+	right: .2rem;
+	height: .84rem;
+}
+
+.buyNow {
+	position: relative;
+	height: 1.46rem;
+	width: 100%;
+	background-color: rgb(240, 239, 237);
+	border-bottom: 2px solid rgb(221, 216, 206);
+	border-top: 2px solid rgb(221, 216, 206);
+	font-size: .4rem;
+	text-align: center;
+}
+
+.buyNow a {
+	position: absolute;
+	text-decoration: none;
+	left: .2rem;
+	right: .2rem;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	background-color: rgb(255, 153, 0);
+	height: .9rem;
+	line-height: .9rem;
+	top: .28rem;
+	border-radius: .1rem;
+}
+
+.relativeClass {
+	width: 100%;
+	position: relative;
+}
+
+.relativeClass-top {
+	display: block;
+	height: .84rem;
+	width: 100%;
+	position: relative;
+	margin: 0px;
+	top: 0px;
+	font-size: .35rem;
+	line-height: .84rem;
+	color: rgb(52, 52, 52);
+}
+
+.relativeClass-bottom {
+	display: block;
+	width: 100%;
+	position: relative;
+	font-size: .3rem;
+	border-bottom: 2px solid rgb(221, 216, 206);
+	border-top: 2px solid rgb(221, 216, 206);
+}
+
+.relativeClass-bottom span {
+	border-radius: .1rem;
+	display: inline-block;
+	background-color: rgb(255, 225, 149);
+	color: rgb(225, 127, 30);
+	font-size: .3rem;
+	height: .6rem;
+	line-height: .6rem;
+	margin: .1rem;
+	margin-top: .15rem;
+	margin-bottom: .15rem;
+	padding: .05rem;
+}
+
+.recommend {
+	position: relative;
+	width: 100%;
+}
+
+.recommend-head {
+	height: .84rem;
+	position: relative;
+	width: 100%;
+	font-size: .4rem;
+	color: rgb(52, 52, 52);
+	line-height: .84rem;
+	border-bottom: 2px solid rgb(221, 216, 206);
+}
+
+.recommend-list {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	height: 1.36rem;
+	border-bottom: 2px solid rgb(221, 216, 206);
+}
+
+.recommend-list-wrap {
+	font-size: .3rem;
+	position: relative;
+	top: .15rem;
+}
+
+.recommend-list1 {
+	display: inline-block;
+	color: white;
+	background-color: rgb(6, 193, 174);
+	border-radius: .05rem;
+	padding-left: .03rem;
+	padding-right: .03rem;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: .2rem;
+	margin-right: .1rem;
+}
+
+.recommend-list2 {
+	color: rgb(112, 112, 112);
+}
+
+.recommend-list-wrap1 {
+	position: relative;
+	width: 2rem;
+	left: .4rem;
+	bottom: .3rem;
+}
+
+.recommend-list3 {
+	font-size: .4rem;
+	font-weight: bold;
+	color: rgb(6, 193, 174);
+	;
+}
+
+.recommend-list4 {
+	font-size: .25rem;
+	color: rgb(255, 153, 0);
+	border: 2px solid rgb(255, 153, 0);
+	border-radius: .05rem;
+	padding: .02rem;
+	margin-left: .1rem;
+}
+
+.recommend-list-sold {
+	position: absolute;
+	font-size: .23rem;
+	right: .3rem;
+	top: .8rem;
+	color: rgb(162, 162, 162);
+}
+
+.guessLike {
+	width: 100%;
+	height: 15.5rem;
+	margin: 0px;
+	position: relative;
+	background-color: rgb(240, 239, 237);
+	border-bottom: 3px solid rgb(234, 232, 227);
+}
+
+.guessLike-wrapper {
+	width: 100%;
+	height: 15.15rem;
+	margin: 0px;
+	bottom: 0px;
+	background-color: white;
+	position: absolute;
+}
+
+.guessLike-header {
+	width: 100%;
+	height: .83rem;
+	position: relative;
+	color: rgb(51, 51, 51);
+	font-size: .35em;
+	line-height: .83rem;
+}
+
+.guessLike-header span {
+	display: block;
+	position: absolute;
+	left: .2rem;
+}
+
+.guessLike-item {
+	height: 2.05rem;
+	width: 100%;
+}
+
+.guessLike-item-a {
+	display: block;
+	position: absolute;
+	left: 2%;
+	width: 98%;
+	height: 2.05rem;
+	text-decoration: none;
+	border-top: 3px solid rgb(221, 216, 206);
+}
+
+.guessLike-item-left {
+	position: absolute;
+	display: block;
+	width: 1.8rem;
+	height: 2.05rem;
+}
+
+.guessLike img {
+	position: absolute;
+	top: .125rem;
+	width: 1.8rem;
+	height: 1.8rem;
+}
+
+.guessLike-item-right {
+	position: absolute;
+	display: block;
+	left: 1.9rem;
+	right: 0px;
+	height: 2.05rem;
+}
+
+.guessLike-item-right-span1 {
+	position: absolute;
+	display: block;
+}
+
+.guessLike-item-right strong {
+	margin-top: .2rem;
+	display: block;
+	font-size: .3rem;
+	color: rgb(51, 51, 51);
+}
+
+.guessLike-item-right p {
+	font-size: .25rem;
+	color: rgb(102, 102, 102);
+	margin: 0px;
+	padding: 0px;
+}
+
+.guessLike-item-right b {
+	font-size: .4rem;
+	color: rgb(6, 193, 174);
+}
+
+.guessLike-item-right small {
+	font-size: .25rem;
+	color: rgb(102, 102, 102);
+}
+
+.guessLike-item-right-span2 {
+	position: absolute;
+	bottom: .15rem;
+	right: .3rem;
+	display: block;
+	font-size: .25rem;
+	color: rgb(102, 102, 102);
+}
+
+.footer {
+	width: 100%;
+	height: 3.91rem;
+	margin: 0px;
+	position: relative;
+	background-color: rgb(240, 239, 237);
+	border-top: 2px solid rgb(234, 232, 227);
+}
+
+.current-page {
+	height: .6rem;
+	position: absolute;
+	top: .15rem;
+	width: 100%;
+	color: rgb(6, 193, 174);
+	font-size: .25rem;
+	line-height: .6rem;
+}
+
+.current-page span {
+	margin-left: .2rem;
+}
+
+.footer-login {
+	position: absolute;
+	width: 100%;
+	height: .6rem;
+	top: .82rem;
+}
+
+.footer-login a {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	font-size: .3rem;
+	border: 2px solid rgb(6, 193, 174);
+	color: rgb(6, 193, 174);
+	text-align: center;
+	border-radius: .07rem;
+}
+
+.footer-login a:active {
+	background-color: rgb(6, 193, 174);
+	color: white;
+}
+
+.footer-login-left {
+	position: absolute;
+	left: .2rem;
+	width: 2.5rem;
+	height: .6rem;
+	line-height: .6rem;
+}
+
+.denglu {
+	width: 1.1rem;
+}
+
+.zhuce {
+	right: 0px;
+	width: 1.1rem;
+}
+
+.footer-login-right {
+	position: absolute;
+	line-height: .6rem;
+	width: 2.6rem;
+	height: .6rem;
+	right: .2rem;
+}
+
+.footer-login-right span {
+	position: absolute;
+	display: block;
+	font-size: .3rem;
+}
+
+.xiamen {
+	right: 0px;
+	width: 1.6rem;
+}
+
+.footer-class {
+	position: absolute;
+	width: 94%;
+	left: 3%;
+	right: 3%;
+	height: .3rem;
+	line-height: .3rem;
+	top: 2rem;
+}
+
+.footer-class a {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	font-size: .25rem;
+	color: rgb(6, 193, 174);
+	text-align: center;
+	width: 20%;
+}
+
+.dingdan {
+	left: 20%;
+	border-left: 2px solid rgb(102, 102, 102);
+}
+
+.kehuduan {
+	left: 40%;
+	border-left: 2px solid rgb(102, 102, 102);
+}
+
+.diannaoban {
+	left: 60%;
+	border-left: 2px solid rgb(102, 102, 102);
+}
+
+.bangzhu {
+	left: 80%;
+	border-left: 2px solid rgb(102, 102, 102);
+}
+
+.footer-link {
+	position: absolute;
+	width: 100%;
+	height: .6rem;
+	top: 2.72rem;
+	font-size: .25rem;
+	text-align: center;
+}
+
+.footer-link a {
+	text-decoration: none;
+	color: rgb(6, 193, 174);
+}
+
+.footer-copyright {
+	position: absolute;
+	width: 100%;
+	height: .6rem;
+	top: 3.2rem;
+	font-size: .25rem;
+	line-height: .6rem;
+	text-align: center;
+}
+
+.footer-copyright div {
+	position: absolute;
+	top: 0.29rem;
+	height: 1px;
+	background-color: rgb(153, 153, 153);
+	width: 96%;
+	left: 2%;
+	right: 2%;
+	border: 1px solid rgb(153, 153, 153);
+}
+
+.footer-copyright span {
+	width: 4rem;
+	display: inline-block;
+	position: relative;
+	color: rgb(153, 153, 153);
+	background-color: rgb(240, 239, 237);
+}
+
+
+/*++++++++++++++++++*/
+
+#top-btn {
+	display: none;
+	position: fixed;
+	top: 78%;
+	right: .3rem;
+	border-radius: .86rem;
+	background-color: rgb(6, 193, 174);
+	width: .86rem;
+	height: .86rem;
+	background: url(../img/zhiding.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+#top-btn a {
+	display: block;
+	border-radius: .86rem;
+	width: 100%;
+	height: 100%;
+}

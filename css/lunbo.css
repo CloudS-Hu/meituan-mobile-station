@@ -1,0 +1,35 @@
+#one{
+	border: 1px solid red;
+	width:100%;
+	overflow: hidden;
+}
+#two{
+	border: 1px solid black;
+	width:200% ;
+}
+#yuandian1{
+	height: 5px;
+	width: 5px;
+	border-radius: 5px;
+	background-color: #06C1AE;
+	float: left;
+		margin-left:60px ;
+}
+#yuandian2{
+	height: 5px;
+	width: 5px;
+	border-radius: 5px;
+	background-color:gray;
+	float: left;
+	margin-left:50px ;
+}
+#table1{
+	width: 100%;
+	font-size:30px ;
+}
+#table1 img{
+	margin-left: 0.35rem;
+	margin-top:-0.01rem;
+	height: 100px;
+	width:100px ;
+}

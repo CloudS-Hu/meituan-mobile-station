@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			
+			setInterval(function(){
+//				获取当前时间
+				var time=new Date();
+			    var h=23-time.getHours();
+//			    判断如果小于10；就在前加个0；
+			    if(h<10){
+			    	h="0"+h;
+			    }
+			    var m=59-time.getMinutes();
+			    if(m<10){
+			    	m="0"+m;
+			    }
+			    var s=59-time.getSeconds();
+			    if(s<10){
+			    	s="0"+s;
+			    }
+				document.getElementById("shijian").innerHTML=h+":"+m+":"+s;
+				
+			},1000);
+			
+		</script>
+	</head>
+	<body>
+		<div id="shijian" style="width: 200px;height:50px;border:1px red solid;"></div>
+	</body>
+</html>

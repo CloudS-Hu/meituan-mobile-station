@@ -1,0 +1,957 @@
+            .navbar {
+				border-bottom: 3px solid rgb(19, 165, 150);
+				position: relative;
+				width: 100%;
+				height: 102px;
+				background-color: rgb(6, 193, 174);
+			}
+			
+			.nav-wrap-left {
+				height: 1rem;
+				width: 1.5rem;
+				position: absolute;
+				font-size: 0.35em;
+				line-height: 1rem;
+				text-align: center;
+			}
+			
+			.nav-wrap-left a {
+				text-decoration: none;
+				color: rgb(197, 236, 232);
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.box-search {
+				border-top: 1px solid rgb(6, 179, 161);
+				position: absolute;
+				left: 1.5rem;
+				top: .18rem;
+				right: 1.15rem;
+				height: .65rem;
+				font-size: 0.3em;
+				line-height: .65rem;
+				background-color: rgb(5, 164, 148);
+			}
+			
+			.box-search a {
+				text-decoration: none;
+				color: rgb(62, 196, 181);
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.box-search img {
+				position: absolute;
+				left: .2rem;
+				top: .15rem;
+				width: .35rem;
+				height: .35rem
+			}
+			
+			.box-search span {
+				margin-left: .6rem;
+			}
+			
+			.nav-wrap-right {
+				height: 1rem;
+				width: 1.1rem;
+				position: absolute;
+				right: 0px;
+				font-size: .25em;
+			}
+			
+			.nav-wrap-right a {
+				text-decoration: none;
+				color: rgb(197, 236, 232);
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			
+			.nav-wrap-right img {
+				position: absolute;
+				left: .3rem;
+				top: .1rem;
+				width: .5rem;
+				height: .45rem;
+			}
+			
+			.nav-wrap-right span {
+				display: block;
+				position: absolute;
+				left: .29rem;
+				top: .6rem;
+			}
+			
+			.banner {
+				position: relative;
+				height: 1rem;
+				width: 100%;
+				text-align: center;
+			}
+			
+			.banner div {
+				position: absolute;
+				height: 1rem;
+				width: 100%;
+				background-color: rgb(240, 239, 237);
+			}
+			
+			.banner a {
+				display: block;
+				position: absolute;
+				height: 1rem;
+				width: 100%;
+			}
+			
+			.icon-list {
+				position: relative;
+				border-bottom: 3px solid rgb(234, 232, 227);
+				border-top: 3px solid rgb(234, 232, 227);
+				margin: 0px;
+				width: 100%;
+				height: 3.7rem;
+				font-size: .25em;
+				overflow: hidden;
+			}
+			
+			.icon-list-wrapper {
+				display: inline-block;
+				width: 100%;
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.icon-list-move {
+				position: absolute;
+				width: 200%;
+				margin: 0px;
+				padding: 0px;
+				display: initial;
+			}
+			
+			.icon {
+				list-style-type: none;
+				width: 12.5%;
+				height: 1.62rem;
+				float: left;
+				text-align: center;
+			}
+			
+			.icon a {
+				text-decoration: none;
+				display: block;
+				width: 100%;
+				height: 100%;
+				color: rgb(111, 111, 111);
+			}
+			
+			.icon img {
+				margin-top: 6%;
+				width: .8rem;
+				height: .8rem;
+			}
+			
+			.icon span {
+				display: block;
+			}
+			
+			.icon-list-cirle {
+				position: absolute;
+				margin: 0px;
+				padding: 0px;
+				font-size: 2em;
+				left: 50%;
+				bottom: 0;			
+				margin-left: -.56rem;
+			}
+			
+			.circleOne {
+				list-style-type: none;
+				background-color: rgb(6, 193, 174);
+				border-radius:.16rem;
+				width:.16rem;
+				height:.16rem;
+				float: left;
+				margin:.2rem;
+			}
+			
+			.circleTwo {
+				list-style-type: none;
+				background-color: rgb(240,239,237);
+				border-radius:.16rem;
+				width:.16rem;
+				height:.16rem;
+				float: left;
+				margin:.2rem;
+			}
+			
+			#daogou {
+				position: relative;
+				background-color: rgb(240, 239, 237);
+				border-bottom: 3px solid rgb(234, 232, 227);
+				margin: 0px;
+				width: 100%;
+				height: 3.22rem;
+			}
+			
+			.daogou-wrap {
+				width: 100%;
+				margin: 0px;
+			}
+			
+			.left {
+				width: 37.5%;
+				height: 2.96rem;
+				position: absolute;
+				bottom: 0px;
+				text-align: center;
+				background-color: white;
+			}
+			
+			.left a {
+				border-right: 3px solid rgb(240, 239, 237);
+				height: 2.52rem;
+				margin-top: .25rem;
+				display: block;
+				text-decoration: none;
+			}
+			
+			.left span {
+				display: block;
+				font-size: .35em;
+			}
+			
+			.left strong {
+				display: block;
+				color: rgb(117, 180, 60);
+			}
+			
+			.left small {
+				color: rgb(121, 121, 121);
+				font-size: .7em;
+			}
+			
+			.right {
+				left: 37.5%;
+				width: 62.5%;
+				height: 2.96rem;
+				position: absolute;
+				bottom: 0px;
+				background-color: white;
+			}
+			
+			.top {
+				width: 100%;
+				height: 1.25rem;
+			}
+			
+			.top a {
+				border-bottom: 3px solid rgb(240, 239, 237);
+				display: block;
+				height: 1.25rem;
+				text-align: center;
+				text-decoration: none;
+			}
+			
+			.topwrap {
+				display: inline-block;
+			}
+			
+			.top span {
+				height: 100%;
+				display: inline-block;
+				float: left;
+			}
+			
+			.top strong {
+				display: block;
+				font-size: .35em;
+				color: rgb(255, 71, 23);
+				padding: .05rem;
+				margin-top: .2rem;
+			}
+			
+			.top small {
+				display: block;
+				font-size: .25em;
+				color: rgb(121, 121, 121);
+				padding: .05rem;
+			}
+			
+			.top img {
+				height: 100%;
+			}
+			
+			.bottomLeft {
+				height: 1.71rem;
+				position: absolute;
+				text-align: center;
+				width: 50%;
+			}
+			
+			.bottomLeft a {
+				height: 1.52rem;
+				border-right: 3px solid rgb(240, 239, 237);
+				display: block;
+				text-decoration: none;
+			}
+			
+			.bottomLeft img {
+				width: .8rem;
+				height: .8rem;
+			}
+			
+			.bottomLeft span {
+				display: block;
+				font-size: .35em;
+			}
+			
+			.bottomLeft strong {
+				display: block;
+				color: rgb(248, 88, 171);
+			}
+			
+			.bottomLeft small {
+				color: rgb(121, 121, 121);
+				font-size: .7em;
+			}
+			
+			.bottomRight {
+				height: 1.71rem;
+				position: absolute;
+				text-align: center;
+				right: 0px;
+				width: 50%;
+			}
+			
+			.bottomRight a {
+				height: 1.71rem;
+				display: block;
+				text-decoration: none;
+			}
+			
+			.bottomRight span {
+				display: block;
+				font-size: .35em;
+			}
+			
+			.bottomRight strong {
+				display: block;
+				color: rgb(255, 134, 1);
+			}
+			
+			.bottomRight small {
+				color: rgb(121, 121, 121);
+				font-size: .7em;
+			}
+			
+			.time {
+				display: inline-block;
+				width: 100%;
+				text-align: center;
+			}
+			
+			#timewrapper {
+				top: .1rem;
+				position: relative;
+				width: 2.24rem;
+				height: .6rem;
+				display: inline-block;
+				font-size: 1rem;
+			}
+			
+			#hours {
+				display: inline-block;
+				border: 1px solid black;
+				width: .58rem;
+				height: .5rem;
+				float: left;
+				line-height: .5rem;
+				border-radius: .15rem;
+				background-color: rgb(76, 76, 76);
+				color: white;
+			}
+			
+			#minutes {
+				display: inline-block;
+				border: 1px solid black;
+				width: .58rem;
+				height: .5rem;
+				float: left;
+				line-height: .5rem;
+				border-radius: .15rem;
+				background-color: rgb(76, 76, 76);
+				color: white;
+			}
+			
+			#seconds {
+				display: inline-block;
+				border: 1px solid black;
+				width: .58rem;
+				height: .5rem;
+				float: left;
+				line-height: .5rem;
+				border-radius: .15rem;
+				background-color: rgb(76, 76, 76);
+				color: white;
+			}
+			
+			#maohao1 {
+				display: inline-block;
+				width: .2rem;
+				height: .5rem;
+				float: left;
+				line-height: .5rem;
+				color: black;
+			}
+			
+			#maohao2 {
+				display: inline-block;
+				width: .2rem;
+				height: .5rem;
+				float: left;
+				line-height: .5rem;
+				color: black;
+			}
+			
+			.huodong {
+				position: relative;
+				background-color: rgb(240, 239, 237);
+				border-bottom: 3px solid rgb(234, 232, 227);
+				margin: 0px;
+				width: 100%;
+				height: 4.84rem;
+			}
+			
+			.huodong-wrapper {
+				position: absolute;
+				width: 100%;
+				height: 4.58rem;
+				bottom: 0px;
+				margin: 0px;
+				background-color: white;
+			}
+			
+			.huodong-top {
+				width: 100%;
+				height: 1.52rem;
+				position: relative;
+			}
+			
+			.huodong-top-a {
+				border-bottom: 3px solid rgb(240, 239, 237);
+				height: 1.52rem;
+				display: block;
+				text-decoration: none;
+			}
+			
+			.huodong-top div {
+				position: absolute;
+				left: .3rem;
+				top: .2rem;
+			}
+			
+			.huodong-top strong {
+				display: block;
+				color: rgb(255, 138, 110);
+				font-size: .45rem;
+			}
+			
+			.huodong-top small {
+				display: block;
+				color: rgb(121, 121, 121);
+				font-size: .25rem;
+			}
+			
+			.huodong-top img {
+				position: absolute;
+				right: 0.2rem;
+				height: 100%;
+			}
+			
+			.huodong-middle {
+				position: relative;
+				width: 100%;
+				height: 1.53rem;
+			}
+			
+			.huodong-middle-left {
+				position: absolute;
+				width: 50%;
+				height: 100%;
+			}
+			
+			.huodong-middle-left-a {
+				border-bottom: 3px solid rgb(240, 239, 237);
+				border-right: 3px solid rgb(240, 239, 237);
+				height: 1.53rem;
+				display: block;
+				text-decoration: none;
+			}
+			
+			.huodong-middle-left div {
+				position: absolute;
+				left: .3rem;
+				top: .3rem;
+			}
+			
+			.huodong-middle-left strong {
+				display: block;
+				color: rgb(234, 106, 73);
+				font-size: .35rem;
+			}
+			
+			.huodong-middle-left small {
+				display: block;
+				color: rgb(121, 121, 121);
+				font-size: .2rem;
+			}
+			
+			.huodong-middle-left img {
+				position: absolute;
+				right: 0rem;
+				height: 100%;
+			}
+			
+			.huodong-middle-right {
+				position: absolute;
+				right: 0px;
+				width: 50%;
+				height: 100%;
+			}
+			
+			.huodong-middle-right-a {
+				border-bottom: 3px solid rgb(240, 239, 237);
+				height: 1.52rem;
+				display: block;
+				text-decoration: none;
+			}
+			
+			.huodong-middle-right div {
+				position: absolute;
+				left: .3rem;
+				top: .3rem;
+			}
+			
+			.huodong-middle-right strong {
+				display: block;
+				color: rgb(249, 162, 27);
+				font-size: .35rem;
+			}
+			
+			.huodong-middle-right small {
+				display: block;
+				color: rgb(121, 121, 121);
+				font-size: .2rem;
+			}
+			
+			.huodong-middle-right img {
+				position: absolute;
+				top: .03rem;
+				right: 0rem;
+				height: 97%;
+			}
+			
+			.huodong-bottom {
+				position: relative;
+				width: 100%;
+				height: 1.53rem;
+			}
+			
+			.huodong-bottom-left {
+				position: absolute;
+				width: 50%;
+				height: 100%;
+			}
+			
+			.huodong-bottom-left-a {
+				border-bottom: 3px solid rgb(240, 239, 237);
+				border-right: 3px solid rgb(240, 239, 237);
+				height: 1.53rem;
+				display: block;
+				text-decoration: none;
+			}
+			
+			.huodong-bottom-left div {
+				position: absolute;
+				left: .3rem;
+				top: .3rem;
+			}
+			
+			.huodong-bottom-left strong {
+				display: block;
+				color: rgb(107, 189, 0);
+				font-size: .35rem;
+			}
+			
+			.huodong-bottom-left small {
+				display: block;
+				color: rgb(121, 121, 121);
+				font-size: .2rem;
+			}
+			
+			.huodong-bottom-left img {
+				position: absolute;
+				top: .02rem;
+				right: .03rem;
+				height: 98%;
+			}
+			
+			.huodong-bottom-right {
+				position: absolute;
+				right: 0px;
+				width: 50%;
+				height: 100%;
+			}
+			
+			.huodong-bottom-right-a {
+				border-bottom: 3px solid rgb(240, 239, 237);
+				height: 1.53rem;
+				display: block;
+				text-decoration: none;
+			}
+			
+			.huodong-bottom-right div {
+				position: absolute;
+				left: .3rem;
+				top: .3rem;
+			}
+			
+			.huodong-bottom-right strong {
+				display: block;
+				color: rgb(118, 135, 241);
+				font-size: .35rem;
+			}
+			
+			.huodong-bottom-right small {
+				display: block;
+				color: rgb(121, 121, 121);
+				font-size: .2rem;
+			}
+			
+			.huodong-bottom-right img {
+				position: absolute;
+				right: 0rem;
+				height: 100%;
+			}
+			
+			.guessLike {
+				width: 100%;
+				height: 16.25rem;
+				margin: 0px;
+				position: relative;
+				background-color: rgb(240, 239, 237);
+				border-bottom: 3px solid rgb(234, 232, 227);
+			}
+			
+			.guessLike-wrapper {
+				width: 100%;
+				height: 15.99rem;
+				margin: 0px;
+				bottom: 0px;
+				background-color: white;
+				position: absolute;
+			}
+			
+			.guessLike-header {
+				width: 100%;
+				height: .83rem;
+				position: relative;
+				color: rgb(51, 51, 51);
+				font-size: .35em;
+				line-height: .83rem;
+			}
+			
+			.guessLike-header span {
+				display: block;
+				position: absolute;
+				left: .2rem;
+			}
+			
+			.guessLike-item {
+				height: 2.05rem;
+				width: 100%;
+			}
+			
+			.guessLike-item-a {
+				display: block;
+				position: absolute;
+				left: 2%;
+				width: 98%;
+				height: 2.05rem;
+				text-decoration: none;
+				border-top: 3px solid rgb(221, 216, 206);
+			}
+			
+			.guessLike-item-left {
+				position: absolute;
+				display: block;
+				width: 1.8rem;
+				height: 2.05rem;
+			}
+			
+			.guessLike img {
+				position: absolute;
+				top: .125rem;
+				width: 1.8rem;
+				height: 1.8rem;
+			}
+			
+			.guessLike-item-right {
+				position: absolute;
+				display: block;
+				left: 1.9rem;
+				right: 0px;
+				height: 2.05rem;
+			}
+			
+			.guessLike-item-right-span1 {
+				position: absolute;
+				display: block;
+			}
+			
+			.guessLike-item-right strong {
+				margin-top: .2rem;
+				display: block;
+				font-size: .3rem;
+				color: rgb(51, 51, 51);
+			}
+			
+			.guessLike-item-right p {
+				font-size: .25rem;
+				color: rgb(102, 102, 102);
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.guessLike-item-right b {
+				font-size: .4rem;
+				color: rgb(6, 193, 174);
+			}
+			
+			.guessLike-item-right small {
+				font-size: .25rem;
+				color: rgb(102, 102, 102);
+			}
+			
+			.guessLike-item-right-span2 {
+				position: absolute;
+				bottom: .15rem;
+				right: .3rem;
+				display: block;
+				font-size: .25rem;
+				color: rgb(102, 102, 102);
+			}
+			
+			.guessLike-footer {
+				width: 100%;
+				height: .8rem;
+				position: relative;
+				border-top: 3px solid rgb(221, 216, 206);
+			}
+			
+			.guessLike-footer-a {
+				position: absolute;
+				width: 100%;
+				height: .8rem;
+				color: rgb(28, 198, 181);
+				font-size: .33rem;
+				line-height: .8rem;
+			}
+			
+			.guessLike-footer-left {
+				position: absolute;
+				display: block;
+				left: .1rem;
+			}
+			
+			.guessLike-footer-right {
+				position: absolute;
+				display: block;
+				right: .3rem;
+				font-weight: bolder;
+			}
+			
+			.footer {
+				width: 100%;
+				height: 3.31rem;
+				margin: 0px;
+				position: relative;
+				background-color: rgb(240, 239, 237);
+				border-top: 2px solid rgb(234, 232, 227);
+			}
+			
+			.footer-login {
+				position: absolute;
+				width: 100%;
+				height: .6rem;
+				top: .22rem;
+			}
+			
+			.footer-login a {
+				display: block;
+				position: absolute;
+				text-decoration: none;
+				font-size: .3rem;
+				border: 2px solid rgb(6, 193, 174);
+				color: rgb(6, 193, 174);
+				text-align: center;
+				border-radius: .07rem;
+			}
+			
+			.footer-login a:active {
+				background-color: rgb(6, 193, 174);
+				color: white;
+			}
+			
+			.footer-login-left {
+				position: absolute;
+				left: .2rem;
+				width: 2.5rem;
+				height: .6rem;
+				line-height: .6rem;
+			}
+			
+			.denglu {
+				width: 1.1rem;
+			}
+			
+			.zhuce {
+				right: 0px;
+				width: 1.1rem;
+			}
+			
+			.footer-login-right {
+				position: absolute;
+				line-height: .6rem;
+				width: 2.6rem;
+				height: .6rem;
+				right: .2rem;
+			}
+			
+			.footer-login-right span {
+				position: absolute;
+				display: block;
+				font-size: .3rem;
+			}
+			
+			.xiamen {
+				right: 0px;
+				width: 1.6rem;
+			}
+			
+			.footer-class {
+				position: absolute;
+				width: 94%;
+				left: 3%;
+				right: 3%;
+				height: .3rem;
+				line-height: .3rem;
+				top: 1.4rem;
+			}
+			
+			.footer-class a {
+				display: block;
+				position: absolute;
+				text-decoration: none;
+				font-size: .25rem;
+				color: rgb(6, 193, 174);
+				text-align: center;
+				width: 20%;
+			}
+			
+			.dingdan {
+				left: 20%;
+				border-left: 2px solid rgb(102, 102, 102);
+			}
+			
+			.kehuduan {
+				left: 40%;
+				border-left: 2px solid rgb(102, 102, 102);
+			}
+			
+			.diannaoban {
+				left: 60%;
+				border-left: 2px solid rgb(102, 102, 102);
+			}
+			
+			.bangzhu {
+				left: 80%;
+				border-left: 2px solid rgb(102, 102, 102);
+			}
+			
+			.footer-link {
+				position: absolute;
+				width: 100%;
+				height: .6rem;
+				top: 2.12rem;
+				font-size: .25rem;
+				text-align: center;
+			}
+			
+			.footer-link a {
+				text-decoration: none;
+				color: rgb(6, 193, 174);
+			}
+			
+			.footer-copyright {
+				position: absolute;
+				width: 100%;
+				height: .6rem;
+				top: 2.6rem;
+				font-size: .25rem;
+				line-height: .6rem;
+				text-align: center;
+			}
+			
+			.footer-copyright div {
+				position: absolute;
+				top: 0.29rem;
+				height: 1px;
+				background-color: rgb(153, 153, 153);
+				width: 96%;
+				left: 2%;
+				right: 2%;
+				border: 1px solid rgb(153, 153, 153);
+			}
+			
+			.footer-copyright span {
+				width: 4rem;
+				display: inline-block;
+				position: relative;
+				color: rgb(153, 153, 153);
+				background-color: rgb(240, 239, 237);
+			}
+			
+			#top-btn {
+				display: none;
+				position: fixed;
+				top: 78%;
+				right: .3rem;
+				border-radius: .86rem;
+				background-color: rgb(6, 193, 174);
+				width: .86rem;
+				height: .86rem;
+				background: url(../img/zhiding.jpg);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+			
+			#top-btn a {
+				display: block;
+				border-radius: .86rem;
+				width: 100%;
+				height: 100%;
+			}
+			
+			#a {
+				font-size: .3rem;
+			}
+			
+			#b {
+				font-size: .3rem;
+			}

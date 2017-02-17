@@ -1,0 +1,729 @@
+.navbar {
+	width: 100%;
+	height: 1.02rem;
+	position: relative;
+	background-color: rgb(6, 193, 174);
+}
+
+.nav-back {
+	display: block;
+	height: 1.02rem;
+	width: 1.02rem;
+	background: url(../meishi_img/back-jiantou.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.nav-middle {
+	position: absolute;
+	left: 1.02rem;
+	right: 2.04rem;
+	font-size: .4em;
+	height: 1.02rem;
+	display: block;
+	text-align: center;
+	line-height: 1.02rem;
+	color: white;
+}
+
+.nav-my {
+	height: 1.02rem;
+	width: 1.02rem;
+	position: absolute;
+	right: 1.02rem;
+	font-size: .22em;
+}
+
+.nav-my a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.nav-my img {
+	position: absolute;
+	left: .3rem;
+	top: .16rem;
+	width: .45rem;
+	height: .4rem;
+}
+
+.nav-my span {
+	display: block;
+	position: absolute;
+	left: .31rem;
+	top: .6rem;
+}
+
+.nav-search {
+	height: 1.02rem;
+	width: 1.02rem;
+	position: absolute;
+	right: 0px;
+	font-size: .22em;
+}
+
+.nav-search a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.nav-search img {
+	position: absolute;
+	left: .28rem;
+	top: .15rem;
+	width: .45rem;
+	height: .4rem;
+}
+
+.nav-search span {
+	display: block;
+	position: absolute;
+	left: .29rem;
+	top: .6rem;
+}
+
+.item {
+	height: .84rem;
+	width: 100%;
+	position: relative;
+}
+
+.item-table {
+	height: .84rem;
+	width: 100%;
+	font-size: .3em;
+	text-align: center;
+	color: rgb(103, 103, 103);
+	letter-spacing: .05rem;
+	border-bottom: 2px solid rgb(137, 137, 137);
+	border-top: 2px solid rgb(137, 137, 137);
+}
+
+#item-food {
+	width: 25%;
+	border-right: 2px solid rgb(137, 137, 137);
+}
+
+#item-city {
+	border-right: 2px solid rgb(137, 137, 137);
+	width: 25%;
+}
+
+#item-order {
+	border-right: 2px solid rgb(137, 137, 137);
+	width: 25%;
+}
+
+#item-sort {
+	width: 25%;
+}
+
+#food {
+	position: absolute;
+	width: 100%;
+	height: 7rem;
+	z-index: 3;
+	font-size: .3rem;
+	display: none;
+}
+
+.count {
+	border-radius: .1rem;
+	background-color: rgb(204, 204, 204);
+	height: .3rem;
+	top: .3rem;
+	position: absolute;
+	right: .1rem;
+	color: white;
+	line-height: .3rem;
+}
+
+.count1 {
+	height: .3rem;
+	top: .3rem;
+	position: absolute;
+	right: .1rem;
+	color: rgb(204, 204, 204);
+	line-height: .3rem;
+}
+
+.food-left {
+	position: absolute;
+	background-color: white;
+	height: 100%;
+	width: 3.1rem;
+	overflow: scroll;
+	border-right: 3px solid rgb(221, 216, 205);
+}
+
+.food-left table {
+	position: absolute;
+	width: 100%;
+}
+
+.food-left td {
+	border-bottom: 2px solid rgb(221, 216, 205);
+	height: .84rem;
+	position: relative;
+}
+
+.food-right {
+	position: absolute;
+	background-color: white;
+	height: 100%;
+	left: 3.13rem;
+	right: 0px;
+	overflow: scroll;
+}
+
+.food-right table {
+	position: absolute;
+	width: 100%;
+	background-color: rgb(246, 244, 240);
+}
+
+.food-right td {
+	border-bottom: 2px solid rgb(221, 216, 205);
+	height: .84rem;
+	position: relative;
+}
+
+#city {
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	height: 5rem;
+	z-index: 3;
+	font-size: .3rem;
+	overflow: scroll;
+	display: none;
+}
+
+#city table {
+	position: absolute;
+	width: 100%;
+}
+
+#city td {
+	border-bottom: 2px solid rgb(221, 216, 205);
+	height: .84rem;
+	position: relative;
+}
+
+#city span {
+	margin-left: .4rem;
+}
+
+#order {
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	height: 5rem;
+	z-index: 3;
+	font-size: .3rem;
+	overflow: scroll;
+	display: none;
+}
+
+#order table {
+	position: absolute;
+	width: 100%;
+}
+
+#order td {
+	border-bottom: 2px solid rgb(221, 216, 205);
+	height: .84rem;
+	position: relative;
+}
+
+#order span {
+	margin-left: .4rem;
+}
+
+#sort {
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	height: 5.12rem;
+	z-index: 3;
+	font-size: .3rem;
+	overflow: scroll;
+	display: none;
+}
+
+.sort-1,
+#sort-2,
+#sort-3 {
+	position: relative;
+	height: .84rem;
+	width: 100%;
+	border-bottom: 2px solid rgb(221, 216, 206);
+	line-height: .84rem;
+}
+
+.sort-1 input {
+	position: absolute;
+	border: 1px solid black;
+	top: .19rem;
+	right: .1rem;
+	width: .4rem;
+	height: .4rem;
+	border: 2px solid rgb(6, 194, 173);
+	background-color: white;
+}
+
+.sort-1 span {
+	margin-left: .3rem;
+}
+
+#sort-2 {
+	position: relative;
+	height: 2.52rem;
+	width: 100%;
+}
+
+.sort-2-1 span {
+	margin-left: .3rem;
+}
+
+.sort-2-2 {
+	margin-left: .3rem;
+}
+
+.sort-2-2 span {
+	display: inline-block;
+	border: 2px solid rgb(6, 193, 174);
+	border-radius: .15rem;
+	height: .5rem;
+	width: 1.5rem;
+	text-align: center;
+	line-height: .5rem;
+	color: rgb(6, 193, 174);
+}
+
+#sort-3 {
+	background-color: rgb(246, 244, 240);
+	color: rgb(6, 193, 174);
+}
+
+.sort-3-1 {
+	margin-left: .3rem;
+}
+
+.sort-3-2 {
+	position: absolute;
+	right: .3rem;
+}
+
+#shade {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 2;
+	opacity: .6;
+	display: none;
+}
+
+
+/*===========================*/
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.list {
+	border-bottom: 3px solid rgb(221, 216, 206);
+}
+
+.list-shop {
+	position: relative;
+	height: 1.15rem;
+	width: 100%;
+}
+
+.list-shop-a {
+	display: block;
+	height: 1.15rem;
+	width: 100%;
+	color: black;
+	border-bottom: 3px solid rgb(221, 216, 206);
+}
+
+.list-shop-name {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: .15rem;
+	height: 1rem;
+	font-size: .3em;
+}
+
+.list-shop-name p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-shop-name span {
+	position: absolute;
+	display: block;
+	width: 2.08rem;
+	height: .27rem;
+	background: url(../meishi_img/pingfen.jpg);
+	top: .57rem;
+}
+
+.list-shop-road {
+	display: block;
+	position: absolute;
+	right: 0px;
+	bottom: .15rem;
+	font-size: .22em;
+	color: rgb(102, 102, 102);
+}
+
+.list-item {
+	height: 2.05rem;
+	width: 100%;
+}
+
+.list-item-a {
+	display: block;
+	position: absolute;
+	left: 2%;
+	width: 98%;
+	height: 2.05rem;
+	text-decoration: none;
+	border-bottom: 3px solid rgb(221, 216, 206);
+}
+
+.list-item-left {
+	position: absolute;
+	display: block;
+	width: 1.8rem;
+	height: 2.05rem;
+}
+
+.list img {
+	position: absolute;
+	top: .125rem;
+	width: 1.8rem;
+	height: 1.8rem;
+}
+
+.list-item-right {
+	position: absolute;
+	display: block;
+	left: 1.9rem;
+	right: 0px;
+	height: 2.05rem;
+}
+
+.list-item-right-span1 {
+	position: absolute;
+	display: block;
+	bottom: .1rem;
+}
+
+.list-item-right-span1 p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-item-right strong {
+	margin-bottom: .2rem;
+	display: block;
+	font-size: .3rem;
+	color: rgb(51, 51, 51);
+}
+
+.list-item-right b {
+	font-size: .4rem;
+	color: rgb(6, 193, 174);
+}
+
+.list-item-right small {
+	font-size: .25rem;
+	color: rgb(102, 102, 102);
+}
+
+.list-item-right-span2 {
+	position: absolute;
+	bottom: .3rem;
+	right: .3rem;
+	display: block;
+	font-size: .25rem;
+	color: rgb(102, 102, 102);
+}
+
+.list-else {
+	text-align: center;
+	font-size: .35rem;
+	height: .82rem;
+	width: 100%;
+	color: rgb(6, 194, 173);
+	line-height: .82rem;
+	border-top: 3px solid rgb(221, 216, 206);
+}
+
+.space {
+	position: relative;
+	height: .26rem;
+	width: 100%;
+	background-color: rgb(240, 239, 237);
+	border-bottom: 2px solid rgb(221, 216, 206);
+}
+
+.pageDownUp {
+	border-bottom: 2px solid rgb(221, 216, 206);
+	position: relative;
+	height: .94rem;
+	width: 100%;
+}
+
+.pageDownUp-wrap {
+	position: absolute;
+	height: .94rem;
+	width: 4rem;
+	font-size: .33em;
+	left: .2rem;
+}
+
+#up {
+	position: absolute;
+	border: 2px solid #BABABA;
+	width: 1.5rem;
+	text-align: center;
+	height: .6rem;
+	line-height: .6rem;
+	top: .17rem;
+	border-radius: .1rem;
+	background-color: #dcdcdc;
+	color: #bababa;
+}
+
+#page {
+	position: absolute;
+	text-align: center;
+	left: 1.54rem;
+	width: .92rem;
+	height: .6rem;
+	line-height: .6rem;
+	top: .17rem;
+	color: #787878;
+}
+
+#down {
+	position: absolute;
+	border: 2px solid rgb(6, 193, 174);
+	right: 0px;
+	width: 1.5rem;
+	text-align: center;
+	height: .6rem;
+	line-height: .6rem;
+	top: .17rem;
+	border-radius: .1rem;
+	background-color: ;
+	color: rgb(6, 193, 174);
+}
+
+
+/*======================*/
+
+.footer {
+	width: 100%;
+	height: 3.91rem;
+	margin: 0px;
+	position: relative;
+	background-color: rgb(240, 239, 237);
+	border-top: 2px solid rgb(234, 232, 227);
+}
+
+.current-page {
+	height: .6rem;
+	position: absolute;
+	top: .15rem;
+	width: 100%;
+	color: rgb(6, 193, 174);
+	font-size: .25rem;
+	line-height: .6rem;
+}
+
+.current-page span {
+	margin-left: .2rem;
+}
+
+.footer-login {
+	position: absolute;
+	width: 100%;
+	height: .6rem;
+	top: .82rem;
+}
+
+.footer-login a {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	font-size: .3rem;
+	border: 2px solid rgb(6, 193, 174);
+	color: rgb(6, 193, 174);
+	text-align: center;
+	border-radius: .07rem;
+}
+
+.footer-login a:active {
+	background-color: rgb(6, 193, 174);
+	color: white;
+}
+
+.footer-login-left {
+	position: absolute;
+	left: .2rem;
+	width: 2.5rem;
+	height: .6rem;
+	line-height: .6rem;
+}
+
+.denglu {
+	width: 1.1rem;
+}
+
+.zhuce {
+	right: 0px;
+	width: 1.1rem;
+}
+
+.footer-login-right {
+	position: absolute;
+	line-height: .6rem;
+	width: 2.6rem;
+	height: .6rem;
+	right: .2rem;
+}
+
+.footer-login-right span {
+	position: absolute;
+	display: block;
+	font-size: .3rem;
+}
+
+.xiamen {
+	right: 0px;
+	width: 1.6rem;
+}
+
+.footer-class {
+	position: absolute;
+	width: 94%;
+	left: 3%;
+	right: 3%;
+	height: .3rem;
+	line-height: .3rem;
+	top: 2rem;
+}
+
+.footer-class a {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	font-size: .25rem;
+	color: rgb(6, 193, 174);
+	text-align: center;
+	width: 20%;
+}
+
+.dingdan {
+	left: 20%;
+	border-left: 2px solid rgb(102, 102, 102);
+}
+
+.kehuduan {
+	left: 40%;
+	border-left: 2px solid rgb(102, 102, 102);
+}
+
+.diannaoban {
+	left: 60%;
+	border-left: 2px solid rgb(102, 102, 102);
+}
+
+.bangzhu {
+	left: 80%;
+	border-left: 2px solid rgb(102, 102, 102);
+}
+
+.footer-link {
+	position: absolute;
+	width: 100%;
+	height: .6rem;
+	top: 2.72rem;
+	font-size: .25rem;
+	text-align: center;
+}
+
+.footer-link a {
+	text-decoration: none;
+	color: rgb(6, 193, 174);
+}
+
+.footer-copyright {
+	position: absolute;
+	width: 100%;
+	height: .6rem;
+	top: 3.2rem;
+	font-size: .25rem;
+	line-height: .6rem;
+	text-align: center;
+}
+
+.footer-copyright div {
+	position: absolute;
+	top: 0.29rem;
+	height: 1px;
+	background-color: rgb(153, 153, 153);
+	width: 96%;
+	left: 2%;
+	right: 2%;
+	border: 1px solid rgb(153, 153, 153);
+}
+
+.footer-copyright span {
+	width: 4rem;
+	display: inline-block;
+	position: relative;
+	color: rgb(153, 153, 153);
+	background-color: rgb(240, 239, 237);
+}
+
+
+/*++++++++++++++++++*/
+
+#top-btn {
+	display: none;
+	position: fixed;
+	top: 78%;
+	right: .3rem;
+	border-radius: .86rem;
+	background-color: rgb(6, 193, 174);
+	width: .86rem;
+	height: .86rem;
+	background: url(../img/zhiding.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+#top-btn a {
+	display: block;
+	border-radius: .86rem;
+	width: 100%;
+	height: 100%;
+}

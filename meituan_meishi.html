@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html style="font-size: 100px;">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5, 
+			width=device-width, user-scalable=no">
+		<title>meituanweb-meishi</title>
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/ecmascript" src="js/meituan_meishi.js"></script>
+		<!--置顶-->
+		<script type="text/javascript" src="js/toTop.js"></script>
+		<!--style-->
+		<link rel="stylesheet" type="text/css" href="css/meituan_meishi.css" />
+	</head>
+
+	<body style="margin: auto;" id="bd">
+		<header class="navbar">
+			<div class="nav-warp">
+				<a href="meituan.html" class="nav-back"></a>
+				<span class="nav-middle">分类</span>
+				<div class="nav-my">
+					<a href="">
+						<img src="img/my.gif" />
+						<span>我的</span>
+					</a>
+				</div>
+				<div class="nav-search">
+					<a href="">
+						<img src="img/search-icon.gif" />
+						<span>搜索</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="item" id="item">
+			<table class="item-table">
+				<tr>
+					<td id="item-food">美食▼</td>
+					<td id="item-city">全城▼</td>
+					<td id="item-order">默认排序▼</td>
+					<td id="item-sort">筛选▼</td>
+				</tr>
+			</table>
+		</div>
+		<div id="food">
+			<div class="food-left">
+				<table>
+					<tr>
+						<td style="background-color: rgb(246,244,240);"><span>美食</span><span class="count">  5980  >  </span> </td>
+					</tr>
+					<tr>
+						<td><span>今日清单</span><span class="count">100</span> </td>
+					</tr>
+					<tr>
+						<td><span>电影</span><span class="count">4345</span> </td>
+					</tr>
+					<tr>
+						<td><span>全部分类</span><span class="count">454</span> </td>
+					</tr>
+					<tr>
+						<td><span>酒店</span><span class="count">123</span> </td>
+					</tr>
+					<tr>
+						<td><span>周边游</span><span class="count">350</span> </td>
+					</tr>
+					<tr>
+						<td><span>休闲娱乐</span><span class="count">451213</span> </td>
+					</tr>
+					<tr>
+						<td><span>美食</span><span class="count">130</span> </td>
+					</tr>
+					<tr>
+						<td><span>今日清单</span><span class="count">5436</span> </td>
+					</tr>
+					<tr>
+						<td><span>电影</span><span class="count">652</span> </td>
+					</tr>
+					<tr>
+						<td><span>全部分类/span><span class="count">32</span> </td>
+					</tr>
+					<tr>
+						<td><span>酒店</span><span class="count">3432</span> </td>
+					</tr>
+					<tr>
+						<td><span>周边游</span><span class="count">1530</span> </td>
+					</tr>
+					<tr>
+						<td><span>休闲娱乐</span><span class="count">130</span> </td>
+					</tr>
+					<tr>
+						<td><span>休闲娱乐</span><span class="count">451213</span> </td>
+					</tr>
+					<tr>
+						<td><span>美食</span><span class="count">130</span> </td>
+					</tr>
+					<tr>
+						<td><span>今日清单</span><span class="count">5436</span> </td>
+					</tr>
+					<tr>
+						<td><span>电影</span><span class="count">652</span> </td>
+					</tr>
+					<tr>
+						<td><span>全部分类</span><span class="count">32</span> </td>
+					</tr>
+					<tr>
+						<td style="border: 0px;"><span>抽奖</span><span class="count">145553</span> </td>
+					</tr>
+				</table>
+			</div>
+			<div class="food-right">
+				<table>
+					<tr>
+						<td>全部<span class="count1">2343</span> </td>
+					</tr>
+					<tr>
+						<td>代金券<span class="count1">3243</span> </td>
+					</tr>
+					<tr>
+						<td>甜点饮品<span class="count1">244443</span> </td>
+					</tr>
+					<tr>
+						<td>生日蛋糕<span class="count1">8768</span> </td>
+					</tr>
+					<tr>
+						<td>火锅<span class="count1">345</span> </td>
+					</tr>
+					<tr>
+						<td>自助餐<span class="count1">966</span> </td>
+					</tr>
+					<tr>
+						<td>小吃快餐<span class="count1">3235</span> </td>
+					</tr>
+					<tr>
+						<td>日韩料理<span class="count1">0875</span> </td>
+					</tr>
+					<tr>
+						<td>代金券<span class="count1">2345</span> </td>
+					</tr>
+					<tr>
+						<td>甜点饮品<span class="count1">9875</span> </td>
+					</tr>
+					<tr>
+						<td>生日蛋糕<span class="count1">334</span> </td>
+					</tr>
+					<tr>
+						<td>火锅<span class="count1">675</span> </td>
+					</tr>
+					<tr>
+						<td>自助餐<span class="count1">556</span> </td>
+					</tr>
+					<tr>
+						<td>小吃快餐<span class="count1">4563</span> </td>
+					</tr>
+					<tr>
+						<td>日韩料理<span class="count1">0875</span> </td>
+					</tr>
+					<tr>
+						<td>代金券<span class="count1">2345</span> </td>
+					</tr>
+					<tr>
+						<td>甜点饮品<span class="count1">9875</span> </td>
+					</tr>
+					<tr>
+						<td>生日蛋糕<span class="count1">334</span> </td>
+					</tr>
+					<tr>
+						<td>火锅<span class="count1">675</span> </td>
+					</tr>
+					<tr>
+						<td>自助餐<span class="count1">556</span> </td>
+					</tr>
+					<tr>
+						<td>小吃快餐<span class="count1">4563</span> </td>
+					</tr>
+					<tr>
+						<td style="border: 0px;">日韩料理<span class="count1">8885</span> </td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="city">
+			<table>
+				<tr>
+					<td style="background-color: rgb(246,244,240);"><span>全城</span> <span class="count">5980  ></span> </td>
+				</tr>
+				<tr>
+					<td> <span>思明区</span><span class="count">100  ></span> </td>
+				</tr>
+				<tr>
+					<td><span>湖里区</span><span class="count">4345  ></span> </td>
+				</tr>
+				<tr>
+					<td><span>集美区</span><span class="count">454  ></span> </td>
+				</tr>
+				<tr>
+					<td><span>同安区</span><span class="count">123  ></span> </td>
+				</tr>
+				<tr>
+					<td><span>翔安区</span><span class="count">350  ></span> </td>
+				</tr>
+				<tr>
+					<td><span>鼓浪屿</span><span class="count">451213  ></span> </td>
+				</tr>
+				<tr>
+					<td style="border: 0px;"><span>海沧区</span><span class="count">145553  ></span> </td>
+				</tr>
+			</table>
+		</div>
+		<div id="order">
+			<table>
+				<tr>
+					<td style="background-color: rgb(246,244,240);color: rgb(6,193,174);"><span>默认排序</span> </td>
+				</tr>
+				<tr>
+					<td><span>离我最近</span></td>
+				</tr>
+				<tr>
+					<td> <span>评价最高</span></td>
+				</tr>
+				<tr>
+					<td><span>最新发布</span> </td>
+				</tr>
+				<tr>
+					<td><span>人气最高</span> </td>
+				</tr>
+				<tr>
+					<td><span>价格最低</span> </td>
+				</tr>
+				<tr>
+					<td style="border: 0px;"><span>价格最高</span> </td>
+				</tr>
+			</table>
+		</div>
+		<div id="sort">
+			<div class="sort-1">
+				<span>只看免预约</span>
+				<input type="checkbox" />
+			</div>
+			<div class="sort-1">
+				<span>节假日可用</span>
+				<input type="checkbox" />
+			</div>
+			<div id="sort-2">
+				<div class="sort-2-1"><span>用餐人数</span> </div>
+				<div class="sort-2-2" id="saixuan">
+					<span>不限</span>
+					<span>单人餐</span>
+					<span>双人餐</span>
+					<span>3~4人餐</span>
+					<span>5~10人餐</span>
+					<span>10人以上</span>
+					<span>代金券</span>
+					<span>其他</span>
+				</div>
+			</div>
+			<div id="sort-3">
+				<span class="sort-3-1" id="reset">重置</span>
+				<span class="sort-3-2">保存</span>
+			</div>
+		</div>
+
+		<div class="container">
+			<div id="shade"></div>
+			<div class="list">
+				<div class="list-shop">
+					<a class="list-shop-a" href="">
+						<span class="list-shop-name">
+							<p>千层披萨(集美店)</p>
+							<span></span>
+						</span>
+						<span class="list-shop-road">石鼓路/集美学村</span>
+					</a>
+				</div>
+				<div class="list-item" name="list1">
+					<a class="list-item-a" href="meituan_meishi_xiangqing.html">
+						<div class="list-item-left"><img src="meishi_img/p1.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>榴莲披萨1份,10寸</strong>
+								<p><b>68元</b><small>门市价:79</small></p>
+							</span>
+							<span class="list-item-right-span2">已售343</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" name="list1">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p2.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>50元代金券1张,可叠加</strong>
+								<p><b>45元</b><small>门市价:56</small></p>
+							</span>
+							<span class="list-item-right-span2">已售4345</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" style="display: none;" name="list1">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p3.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>三人套餐,免费wifi</strong>
+								<p><b>34元</b><small>门市价:54</small></p>
+							</span>
+							<span class="list-item-right-span2">已售2213</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" style="display: none;" name="list1">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p4.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>披萨双人套餐,免费wifi</strong>
+								<p><b>23元</b><small>门市价:76</small></p>
+							</span>
+							<span class="list-item-right-span2">已售763</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" style="display: none;" name="list1">
+					<a class="list-item-a" href="" style="border: 0px;">
+						<div class="list-item-left"><img src="meishi_img/p5.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>豪华双人套餐,免费wifi</strong>
+								<p><b>12元</b><small>门市价:21</small></p>
+							</span>
+							<span class="list-item-right-span2">已售324</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-else" name="else1">查看其它3条团购 V</div>
+			</div>
+			<div class="space"></div>
+			<div class="list">
+				<div class="list-shop">
+					<a class="list-shop-a" href="">
+						<span class="list-shop-name">
+							<p>我爱披萨(湖里店)</p>
+							<span></span>
+						</span>
+						<span class="list-shop-road">湖里万达/湖里金街</span>
+					</a>
+				</div>
+				<div class="list-item" name="list2">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p5.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>榴莲披萨1份,10寸</strong>
+								<p><b>68元</b><small>门市价:79</small></p>
+							</span>
+							<span class="list-item-right-span2">已售343</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" name="list2">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p4.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>50元代金券1张,可叠加</strong>
+								<p><b>45元</b><small>门市价:56</small></p>
+							</span>
+							<span class="list-item-right-span2">已售4345</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" style="display: none;" name="list2">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p3.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>三人套餐,免费wifi</strong>
+								<p><b>34元</b><small>门市价:54</small></p>
+							</span>
+							<span class="list-item-right-span2">已售2213</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" style="display: none;" name="list2">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p2.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>披萨双人套餐,免费wifi</strong>
+								<p><b>23元</b><small>门市价:76</small></p>
+							</span>
+							<span class="list-item-right-span2">已售763</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" style="display: none;" name="list2">
+					<a class="list-item-a" href="" style="border: 0px;">
+						<div class="list-item-left"><img src="meishi_img/p1.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>豪华双人套餐,免费wifi</strong>
+								<p><b>12元</b><small>门市价:21</small></p>
+							</span>
+							<span class="list-item-right-span2">已售324</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-else" name="else2">查看其它3条团购 V</div>
+			</div>
+			<div class="space"></div>
+			<div class="list" name="list3">
+				<div class="list-shop">
+					<a class="list-shop-a" href="">
+						<span class="list-shop-name">
+							<p>好东西,绝对不能错过(思明店)</p>
+							<span></span>
+						</span>
+						<span class="list-shop-road">中山路/厦门大学</span>
+					</a>
+				</div>
+				<div class="list-item" name="list3">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p3.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>榴莲披萨1份,10寸</strong>
+								<p><b>68元</b><small>门市价:79</small></p>
+							</span>
+							<span class="list-item-right-span2">已售343</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" name="list3">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p2.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>50元代金券1张,可叠加</strong>
+								<p><b>45元</b><small>门市价:56</small></p>
+							</span>
+							<span class="list-item-right-span2">已售4345</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" style="display: none;" name="list1">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p3.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>三人套餐,免费wifi</strong>
+								<p><b>34元</b><small>门市价:54</small></p>
+							</span>
+							<span class="list-item-right-span2">已售2213</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" style="display: none;" name="list3">
+					<a class="list-item-a" href="">
+						<div class="list-item-left"><img src="meishi_img/p4.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>披萨双人套餐,免费wifi</strong>
+								<p><b>23元</b><small>门市价:76</small></p>
+							</span>
+							<span class="list-item-right-span2">已售763</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-item" style="display: none;" name="list3">
+					<a class="list-item-a" href="" style="border: 0px;">
+						<div class="list-item-left"><img src="meishi_img/p5.jpg" /> </div>
+						<div class="list-item-right">
+							<span class="list-item-right-span1">
+								<strong>豪华双人套餐,免费wifi</strong>
+								<p><b>12元</b><small>门市价:21</small></p>
+							</span>
+							<span class="list-item-right-span2">已售324</span>
+						</div>
+					</a>
+				</div>
+				<div class="list-else" name="else3">查看其它3条团购 V</div>
+			</div>
+			<div class="space"></div>
+			<div class="pageDownUp">
+				<div class="pageDownUp-wrap">
+					<span id="up">上一页</span>
+					<span id="page">1</span>
+					<span id="down">下一页</span>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="current-page"><span>当前位置:厦门团购>美食团购</span> </div>
+			<div class="footer-login">
+				<div class="footer-login-left">
+					<a class="denglu" href="">登录</a>
+					<a class="zhuce" href="">注册</a>
+				</div>
+				<div class="footer-login-right">
+					<span>城市:</span>
+					<a class="xiamen" href="">厦门</a>
+				</div>
+			</div>
+			<div class="footer-class">
+				<a href="" class="shouye">首页</a>
+				<a href="" class="dingdan">订单</a>
+				<a href="" class="kehuduan">客户端</a>
+				<a href="" class="diannaoban">电脑版</a>
+				<a href="" class="bangzhu">帮助</a>
+			</div>
+			<div class="footer-link">
+				<span>友情链接</span>
+				<span>:</span>
+				<a href="">猫眼电影</a>
+			</div>
+			<div class="footer-copyright">
+				<div></div>
+				<span>©2015 胡云南 闽ICP证83638号</span>
+			</div>
+		</footer>
+		<div id="top-btn">
+			<a href="#bd"></a>
+		</div>
+	</body>
+
+</html>
